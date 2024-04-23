@@ -7,7 +7,7 @@ $dbname = "your_database_name";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
-  die("连接数据库失败：" . $conn->connect_error);
+  die("fail to connect database ：" . $conn->connect_error);
 }
 
 $term = $_GET["term"];
@@ -20,7 +20,7 @@ if ($result->num_rows > 0) {
     echo "<p>" . $row["column_name"] . "</p>";
   }
 } else {
-  echo "无查询结果";
+  echo "no searching result";
 }
 
 $conn->close();
