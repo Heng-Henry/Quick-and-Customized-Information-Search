@@ -9,25 +9,34 @@
 
 ## Data Source: 
 https://www.cwb.gov.tw/V8/C/W/County/index.html 中央氣象局縣市預報 
-https://www.ris.gov.tw/app/portal/346 中華民國內政部戶政司人口統計資料 
+
+https://www.ris.gov.tw/app/portal/346 中華民國內政部戶政司人口統計資料
+
 https://www.thb.gov.tw/cl.aspx?n=349 中華民國交通部公路總局 
+
 https://ptx.transportdata.tw/PTX 公共運輸整合資訊平台 
 
+## Search 
+利用 search.php 實作 search 功能來搜尋裡面的資料 
+
+![image](https://github.com/Heng-Henry/Quick-and-Customized-Information-Search/assets/90209480/921d2d2b-c52a-41dd-ad4c-cb9e784b413d)
+
+## Insert
+用 insert.php實作insert的功能來插入要被新增的餐廳資訊，只有餐廳可以透過使用者新增。
+
+![image](https://github.com/Heng-Henry/Quick-and-Customized-Information-Search/assets/90209480/ee3b3093-8aa6-4f9b-bf49-3c61845ad0fb)
+
+## Delete
+如果有倒閉或停業的餐廳可以透過申報自行delete
+
+![image](https://github.com/Heng-Henry/Quick-and-Customized-Information-Search/assets/90209480/fc5c2bb0-193d-44cb-8feb-12a54275bd24)
+
+## ER Model
+
+![image](https://github.com/Heng-Henry/Quick-and-Customized-Information-Search/assets/90209480/1531db5b-2d2e-4361-af8a-4e744eaedb72)
 
 
-
-![image](https://github.com/Heng-Henry/Quick-and-Customized-Information-Search/assets/90209480/fcf27826-608a-4e7c-9396-349de2a134ae)
-
-
-![image](https://github.com/Heng-Henry/Quick-and-Customized-Information-Search/assets/90209480/0daa7c97-ad84-4087-b7e7-98048eb77445)
-
-![image](https://github.com/Heng-Henry/Quick-and-Customized-Information-Search/assets/90209480/61763a66-00d9-4d55-a43e-f3e69ce9e9e1)
-![image](https://github.com/Heng-Henry/Quick-and-Customized-Information-Search/assets/90209480/801b9f7c-0302-4be1-8667-0f81d24be5bb)
-
-
-
-
-# Application 
+## Application 
 界面中間有一個可以搜尋的欄位，在欄位中輸入想了解的城市名稱，輸入後則會顯示
 該城市之所有相關資訊，供使用者進行評估。搜索欄上方則是一個以海豚為形象的圖
 標，搜索欄的左下方則有輸入新資料之欄位，使用者可以增加新的餐廳名稱與其所在
