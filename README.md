@@ -31,6 +31,9 @@ https://ptx.transportdata.tw/PTX 公共運輸整合資訊平台
 
 ![image](https://github.com/Heng-Henry/Quick-and-Customized-Information-Search/assets/90209480/fc5c2bb0-193d-44cb-8feb-12a54275bd24)
 
+## Update 
+透過update來更新其他的資料
+
 ## ER Model
 
 ![image](https://github.com/Heng-Henry/Quick-and-Customized-Information-Search/assets/90209480/1531db5b-2d2e-4361-af8a-4e744eaedb72)
